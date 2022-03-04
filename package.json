@@ -1,0 +1,23 @@
+{
+  "name": "Contact-Us -Form",
+  "version": "0.1.0",
+  "description": "A Assignment project, of GrowthScribe",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^15.0.1",
+    "express": "^4.17.3",
+    "cors": "^2.8.5",
+    "body-parser": "^1.19.2",
+    "mongodb": "~3.6.0",
+    "mongoose": "~5.4.0",
+    "shortid": "^2.2.16"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "express"
+  ]
+}
