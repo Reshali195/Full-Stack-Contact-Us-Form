@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: white;
+  color: white;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  margin: auto;
+  padding: 12px 170px 18px 80px;
+  display: inline-block;
+  background-color: black;
+}
+
+form input {
+  border: none;
+  background-color:black;
+  border-bottom: 1px solid grey;
+  outline: none;
+}
+#heading {
+  margin: 15px 15px 15px 0px;
+  letter-spacing: 0.5px;
+  font-size: 27px;
+  font-family: "Fjalla One", sans-serif;
+}
+.common {
+  margin-top: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+#email::placeholder {
+  letter-spacing: 0.9px;
+  color: #c7c1c1;
+  font-size: 11.5px;
+  font-weight: 100;
+}
+label {
+  letter-spacing: 2.5px;
+  font-size: 13px;
+}
+input[type="text"] {
+  margin-top: 6px;
+  margin-bottom: 24px;
+  color: white;
+  letter-spacing: 0.8px;
+  font-size: 11px;
+  font-weight: 700;
+  width: 100%;
+  padding: 5px 12px 9px 0px;
+  resize: vertical;
+}
+.button {
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  font-size: 11px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  margin: 13px 0px 20px 0px;
+  padding: 9px 25px;
+}
+
+.button:hover {
+  background-color: #272525;
+  color: white;
+}
+i {
+  margin-right: 10px;
+  font-size: 15px;
+}
